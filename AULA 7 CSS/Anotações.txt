@@ -1,0 +1,13 @@
+ELEMENTO{
+	PROPRIEADE:VALOR;
+}
+FORMAS DE USAR O CSS
+INLINE(NÃO RECOMENDADO POLUI O ARQUIVO)
+APENAS NA PAGINA
+ARQUIVO EXTERNO(IDEAL)
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+EXEMPLO:INLINE
+<p style="color:#f00;font-size:16px> Meu texto </p>
+
+https://www.w3schools.com/Css/
