@@ -1,0 +1,165 @@
+.kanit-thin {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .kanit-extralight {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .kanit-light {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .kanit-regular {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .kanit-medium {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .kanit-semibold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .kanit-bold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .kanit-extrabold {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .kanit-black {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .kanit-thin-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .kanit-extralight-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .kanit-light-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .kanit-regular-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .kanit-medium-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .kanit-semibold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .kanit-bold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .kanit-extrabold-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .kanit-black-italic {
+    font-family: "Kanit", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+
+
+  .secform{
+    background: url("../images/paisagem.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+  }
+
+.secform .center{   
+    width: 40%;
+    margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+    color: #fff;
+ }
+ 
+ :-moz-placeholder { /* Firefox 18- */
+    color: #fff;
+ }
+ 
+ ::-moz-placeholder {  /* Firefox 19+ */
+    color: #fff; 
+ }
+ 
+ :-ms-input-placeholder {  
+    color: #fff; 
+ }
+  
+.caixaTexto{
+    background: transparent;
+    border: 1px solid #ffffff;
+    width: 100%;
+    height: 35px;
+    color: #fff;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+.tituloform{
+    color:#fff;
+}
+
+.botaosubmit{
+    color:#fff;
+    background: rgb(234 171 24);
+    height: 35px;
+    padding: 0px 20px;
+    border:none;
+}
+
+.botaosubmit:hover{
+    background: rgb(192, 137, 11);
+    cursor:pointer;
+    font-weight: 600;
+    padding: 0px 20px;
+}
