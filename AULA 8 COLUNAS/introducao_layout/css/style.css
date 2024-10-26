@@ -1,0 +1,20 @@
+.destaque{
+    background: url(../images/paisagem.jpg);
+    background-repeat: no-repeat;
+    /*background-size: 100%;*/
+    /*background-position: 100%*/;
+    
+    background-size: cover;
+    background-attachment: fixed;
+
+    width:100%; /*largura*/
+    height: 100px; /*altura*/
+}
+
+p{
+    color:rgb(155, 108, 7)
+}
+
+.txdestaque{
+    color:#000;
+}

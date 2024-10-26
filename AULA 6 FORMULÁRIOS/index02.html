@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Formulário </title>
+    <style>
+        label{
+            color:#f00;
+            font-size:16px;
+            font-style: italic;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            }
+            body {
+                background:#000; 
+            }
+            span{
+                color:#f00;
+            }
+            h1{
+                font-family: Arial, Helvetica, sans-serif;
+                font-style: italic;
+                color:#f00;
+            }
+    </style>
+</head>
+<body>
+    <h1>Formulário Time</h1>
+    <section>
+        <form action="" method="">
+            <div>
+                <label> Time que torce: </label>
+                <select name="seltime" id="seltime">
+                    <option> Escolha o Time </option>
+                    <option> Corinthians</option>
+                    <option> Palmeiras </option>
+                    <option> Santos </option>
+                    <option> Flamengo </option>
+                    <option> Vasco </option>
+                    <option> São Paulo </option>
+                    <option> Outros </option>                    
+                </select>
+            </div>
+                <br/>
+            <div>
+                <label> Cores do Time: </label>
+                <input type="color" name="colcor" id="colcor">
+                <input type="color" name="colcor" id="colcor">
+                <input type="color" name="colcor" id="colcor">
+            </div>
+                <br/>
+            <div>
+                <label> Foto do Escudo do Time: </label>
+                <input type="file" name="filfoto">
+            </div>
+                <br/>
+            <div>
+                <label> Titulos que seu time ganhou: </label>
+                <input type="checkbox" name="ckpaulista" id="ckpaulista"> <span> Paulista </span>
+                <input type="checkbox" name="ckbrasileiro" id="ckbrasileiro"> <span> Brasileiro </span>
+                <input type="checkbox" name="ckcopabr" id="ckcopabr"> <span> Copa do Brasil</span>
+                <input type="checkbox" name="ckliberta" id="ckliberta"> <span> Libertadores </span>
+            <br/>
+                <input type="checkbox" name="cksupercopa" id="cksupercopa"> <span> Super Copa </span> 
+                <input type="checkbox" name="ckrecopa" id="ckrecopa"> <span> Recopa </span>
+                <input type="checkbox" name="ckmundial" id="ckmundial"> <span> Mundial de Clubes </span>
+                <input type="checkbox" name="ckoutro" id="ckoutro"> <span> Outro </span>
+                <input type="checkbox" name="cknenhum" id="cknenhum"> <span> Nenhum </span>
+
+            </div>
+                <br/>
+            <div>
+                <label> Hino do seu Time: </label>
+             <textarea></textarea>
+            </div>
+            <br/>
+            <div>
+                <input type="submit" value="Enviar">
+            </div> 
+        </form>
+
+    </section>
+    <br/>
+            <div>
+                <br>
+                <label>Trabalho feito por: Vinicius de Jesus 38 Bruno Oliveira 02</label>
+                <br>
+                <label>Jesus te ama!</label>
+             </div>
+</body>
+</html>
