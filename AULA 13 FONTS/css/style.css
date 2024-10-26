@@ -1,0 +1,8 @@
+    .libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+  }

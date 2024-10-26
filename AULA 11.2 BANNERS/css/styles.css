@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+}
+.destaque{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height: 350px;
+    left: 350px;
+    top: 200px;
+    border-radius: 10px;
+}
+.destaque p{
+    position: absolute;
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 20px;
+    top: 10px;
+    left: 30px;
+}
+.metade0{
+    position: relative;
+    width: 45%;
+    height: 250px;
+    background-image: url(/BANNERS/images/banner1.png);
+    left: 30px;
+    top: 70px;
+    border-radius: 10px;
+}
+.tranparent0{
+    position: absolute;
+    width: 100%;
+    height: 250px; 
+    opacity: 0.1;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,180,255,0.13435085948441872) 35%, rgba(0,212,255,1) 100%);
+}
+.metade1{
+    position: absolute;
+    width: 45%;
+    height: 250px;
+    background-image: url(/BANNERS/images/banner2.png);
+    left:475px;
+    top: 70px;
+    border-radius: 10px;
+}
+.tranparent1{
+    position: absolute;
+    width: 100%;
+    height: 250px;
+    opacity: 0.5;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(0,13,255,0.6133424561230743) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 10px;
+}
+.metade0 img{
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+}
+.plano{
+    position: absolute;
+    color: white;
+    top: 180px;
+    left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.metade0 p{
+    position: absolute;
+    color: white;
+    top: 130px;
+    left: 110px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px
+}
+.metade1 p{
+    position: absolute;
+    color: white;
+    top: 130px;
+    left: 110px;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.metade1 img{
+    position: absolute;
+    bottom: 35px;
+    left: 20px;
+}
+.max{
+    position: absolute;
+    color: white;
+    top: 180px;
+    left: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
